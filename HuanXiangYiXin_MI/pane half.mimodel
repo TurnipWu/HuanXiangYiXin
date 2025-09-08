@@ -1,0 +1,78 @@
+{
+	"name": "Pane",
+	"texture": "window_centrebar_brown1.png",
+	"texture_size": [ 32, 32 ],
+	"parts": [
+		{
+			"name": "New part",
+			"position": [ 0, 0, 0 ],
+			"shapes": [
+				{
+					"type": "plane",
+					"texture": "window_centrebar_brown1.png",
+					"texture_size": [ 32, 32 ],
+					"from": [ -5.5, -8, -0.5 ],
+					"to": [ 5.5, 24, -0.5 ],
+					"uv": [ 15, 0 ],
+					"position": [ -4.5, 16, 0 ],
+					"rotation": [ 0, 0, -180 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "window_centrebar_brown1.png",
+					"texture_size": [ 32, 32 ],
+					"from": [ -5.5, -8, -0.5 ],
+					"to": [ 5.5, 24, -0.5 ],
+					"uv": [ 15, 0 ],
+					"position": [ -4.5, 64, 0 ],
+					"texture_mirror": true,
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "window_centrebar_brown1.png",
+					"texture_size": [ 32, 32 ],
+					"from": [ -16, -8, -0.5 ],
+					"to": [ -10, 24, -0.5 ],
+					"uv": [ 0, 0 ],
+					"position": [ 0, 64, 0 ],
+					"scale": [ 1, 1, 2.5 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "window_centrebar_brown2.png",
+					"texture_size": [ 32, 32 ],
+					"from": [ -16, -8, -0.5 ],
+					"to": [ -10, 24, -0.5 ],
+					"uv": [ 0, 0 ],
+					"position": [ 0, 32, 0 ],
+					"scale": [ 1, 1, 2.5 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "window_centrebar_brown1.png",
+					"texture_size": [ 32, 32 ],
+					"from": [ -16, -8, -0.5 ],
+					"to": [ -10, 24, -0.5 ],
+					"uv": [ 0, 0 ],
+					"scale": [ 1, 1, 2.5 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "window_centrebar_brown2.png",
+					"texture_size": [ 32, 32 ],
+					"from": [ -5.5, -8, -0.5 ],
+					"to": [ 5.5, 24, -0.5 ],
+					"uv": [ 15, 0 ],
+					"position": [ -4.5, 32, 0 ],
+					"texture_mirror": true,
+					"3d": true
+				}
+			]
+		}
+	]
+}

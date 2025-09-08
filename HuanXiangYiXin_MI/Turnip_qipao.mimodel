@@ -1,0 +1,2053 @@
+{
+	"name": "Turnip",
+	"texture": "NeoTurnip.png",
+	"texture_size": [ 64, 64 ],
+	"player_skin": true,
+	"scale": [ 0.91, 0.91, 0.91 ],
+	"parts": [
+		{
+			"name": "body",
+			"position": [ 0, 11.7, 0 ],
+			"bend": {
+				"offset": 6,
+				"size": 10,
+				"detail": 1,
+				"part": "upper",
+				"axis": [ "x", "y", "z" ]
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"color_mix": "#D4D4D4",
+					"from": [ -4, 0, -2 ],
+					"to": [ 4, 12, 2 ],
+					"uv": [ 20, 20 ],
+					"scale": [ 0.82, 1, 0.9 ]
+				},
+				{
+					"type": "block",
+					"description": "B_Left",
+					"from": [ 3.61843, 0.50348, -2 ],
+					"to": [ 4.61843, 1.50348, 2 ],
+					"uv": [ 32, 31 ],
+					"scale": [ 0.8, 1, 0.8998 ]
+				},
+				{
+					"type": "block",
+					"description": "B_Right",
+					"from": [ 3.61868, 0.50194, -2 ],
+					"to": [ 4.61868, 1.50194, 2 ],
+					"uv": [ 28, 31 ],
+					"rotation": [ 0, -180, 0 ],
+					"scale": [ 0.8, 1, 0.8998 ]
+				},
+				{
+					"type": "block",
+					"description": "B_Bottom",
+					"color_mix": "#122A43",
+					"from": [ -4, 0, -2 ],
+					"to": [ 4, 1, 2 ],
+					"uv": [ 20, 31 ],
+					"scale": [ 0.9, 1, 1 ]
+				},
+				{
+					"type": "plane",
+					"texture": "NeoTurnip.png",
+					"texture_size": [ 64, 64 ],
+					"from": [ 2.6, -1.9, 1 ],
+					"to": [ 3.6, 0.1, 1 ],
+					"uv": [ 21, 23 ],
+					"position": [ 0, 13.4, 0 ],
+					"rotation": [ 0, 0, -90 ],
+					"scale": [ 1, 1, 1.1 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "NeoTurnip.png",
+					"texture_size": [ 64, 64 ],
+					"from": [ 4, -2.4, 1 ],
+					"to": [ 5, -0.4, 1 ],
+					"uv": [ 21, 23 ],
+					"position": [ 0, 13.4, 0 ],
+					"rotation": [ 0, 0, -90 ],
+					"scale": [ 1, 1, 1.1 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "NeoTurnip.png",
+					"texture_size": [ 64, 64 ],
+					"from": [ 2.6, -2.4, 1 ],
+					"to": [ 3.6, -1.4, 1 ],
+					"uv": [ 23, 21 ],
+					"position": [ 0, 13.4, 0 ],
+					"rotation": [ 0, 0, -90 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "NeoTurnip.png",
+					"texture_size": [ 64, 64 ],
+					"from": [ 4, -2.9, 1 ],
+					"to": [ 5, -1.9, 1 ],
+					"uv": [ 22, 22 ],
+					"position": [ 0, 13.4, 0 ],
+					"rotation": [ 0, 0, -90 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "NeoTurnip.png",
+					"texture_size": [ 64, 64 ],
+					"from": [ 2.6, -0.5, 1 ],
+					"to": [ 3.6, 0.5, 1 ],
+					"uv": [ 23, 21 ],
+					"position": [ 0, 13.4, 0 ],
+					"rotation": [ 0, 0, -90 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"texture": "NeoTurnip.png",
+					"texture_size": [ 64, 64 ],
+					"from": [ 4, -1, 1 ],
+					"to": [ 5, 0, 1 ],
+					"uv": [ 22, 22 ],
+					"position": [ 0, 13.4, 0 ],
+					"rotation": [ 0, 0, -90 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "L",
+					"from": [ -2, 0.92, 6.73 ],
+					"to": [ 2, 3.92, 6.73 ],
+					"uv": [ 28, 28 ],
+					"rotation": [ -8.1301, 90, 0 ],
+					"scale": [ 0.8999, 1, 0.5 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "R",
+					"from": [ -2, 0.92, 6.73 ],
+					"to": [ 2, 3.92, 6.73 ],
+					"uv": [ 28, 28 ],
+					"rotation": [ -8.1301, -90, 0 ],
+					"scale": [ 0.8999, 1, 0.5 ],
+					"3d": true
+				}
+			],
+			"parts": [
+				{
+					"name": "head",
+					"position": [ 0, 11.75, 0 ],
+					"scale": [ 0.98, 0.98, 0.98 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -4, 0.3, -4 ],
+							"to": [ 4, 8.3, 4 ],
+							"uv": [ 8, 8 ],
+							"scale": [ 0.95, 0.95, 0.95 ]
+						},
+						{
+							"type": "plane",
+							"description": "Mouth",
+							"texture": "NeoTurnip.png",
+							"texture_size": [ 64, 64 ],
+							"from": [ -4, 5.5, -0.2 ],
+							"to": [ 4, 10.5, -0.2 ],
+							"uv": [ 48, 49 ],
+							"position": [ -0.04407, 0.25, 3.7476 ],
+							"scale": [ 0.08, 0.08, 0.1 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Hair",
+							"position": [ 0, 0, 0 ],
+							"parts": [
+								{
+									"name": "FH",
+									"position": [ 0, 0, 0.7 ],
+									"scale": [ 0.95, 0.95, 0.8 ],
+									"bend": {
+										"offset": 0,
+										"part": "lower",
+										"axis": [ "x", "y", "z" ]
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "F",
+											"from": [ -4, 3.3, 8.9 ],
+											"to": [ 4, 7.3, 8.9 ],
+											"uv": [ 40, 4 ],
+											"scale": [ 1, 1, 0.5 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "F",
+											"from": [ -0.6, 0.3, 0 ],
+											"to": [ 0.4, 2.3, 0 ],
+											"uv": [ 40, 11 ],
+											"position": [ -3.5, 4.3, 4.4 ],
+											"rotation": [ -5.7, 0, -34.4 ],
+											"scale": [ 0.8, 1, 0.4 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "F",
+											"from": [ 0.2, 2.7, -0.1 ],
+											"to": [ 1.2, 3.7, -0.1 ],
+											"uv": [ 40, 12 ],
+											"position": [ -3.7, 1.1, 4.1 ],
+											"rotation": [ -4, 2.3, 2.8 ],
+											"scale": [ 1, 1, 0.4 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Inside",
+											"position": [ 0, 0, 3.9 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "F",
+													"from": [ -4, 4.299, -0.05 ],
+													"to": [ 4, 8.299, -0.05 ],
+													"uv": [ 40, 8 ],
+													"scale": [ 1, 1, 0.6 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "Left",
+													"position": [ 3.04111, -1.37885, -0.425 ],
+													"bend": {
+														"offset": 1.9,
+														"size": 8,
+														"detail": 1,
+														"part": "lower",
+														"axis": [ "x", "y", "z" ]
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "F",
+															"from": [ 0, 0, 0 ],
+															"to": [ 1, 6, 0 ],
+															"uv": [ 47, 9 ],
+															"position": [ 0, -0.39757, 0 ],
+															"rotation": [ 0, 0, 0.58652 ],
+															"3d": true
+														}
+													]
+												},
+												{
+													"name": "Right",
+													"position": [ -4.05565, -1.37885, -0.425 ],
+													"bend": {
+														"offset": 1.9,
+														"size": 8,
+														"detail": 1,
+														"part": "lower",
+														"axis": [ "x", "y", "z" ]
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "F",
+															"from": [ 0, 0, 0 ],
+															"to": [ 1, 6, 0 ],
+															"uv": [ 40, 9 ],
+															"position": [ 0, -0.39757, 0 ],
+															"rotation": [ 0, 0, -0.58652 ],
+															"3d": true
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Surface",
+											"position": [ 0, 0.32115, 0 ],
+											"parts": [
+												{
+													"name": "Mid",
+													"position": [ 0, 1.5, 4.8 ],
+													"bend": {
+														"offset": 1.6,
+														"size": 6.8,
+														"detail": 1,
+														"part": "lower",
+														"axis": [ "x", "y", "z" ]
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "F",
+															"from": [ 0.25812, 1.72464, 1.15304 ],
+															"to": [ 2.25812, 5.72464, 1.15304 ],
+															"uv": [ 54, 16 ],
+															"position": [ 0.00746, -0.11317, -0.21953 ],
+															"rotation": [ -10.83766, 17.91148, 9.038 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "F",
+															"from": [ 0.21212, 1.10178, -1.82694 ],
+															"to": [ 2.21212, 4.10178, -1.82694 ],
+															"uv": [ 44, 8 ],
+															"position": [ 1.05978, 1.09289, -0.93726 ],
+															"rotation": [ 4.75822, -185.57779, -3.59714 ],
+															"3d": true
+														}
+													]
+												},
+												{
+													"name": "Right (1)",
+													"mb_name": "Right",
+													"position": [ -0.6, -0.3, -0.6 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "F",
+															"from": [ -4.85284, 2.74209, 6.27191 ],
+															"to": [ -3.85284, 5.74209, 6.27191 ],
+															"uv": [ 47, 9 ],
+															"position": [ 0.38702, -1.10813, 0.29779 ],
+															"rotation": [ -8.57104, -7.81166, -17.75292 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "F",
+															"from": [ -3.9538, 2.02773, 7.61696 ],
+															"to": [ -1.9538, 6.02773, 7.61696 ],
+															"uv": [ 60, 16 ],
+															"position": [ -0.53172, -0.00367, -1.5686 ],
+															"rotation": [ -9.52414, 10.08483, -9.8982 ],
+															"3d": true
+														}
+													]
+												},
+												{
+													"name": "Left (1)",
+													"mb_name": "Left",
+													"position": [ 4.3, 4.4, 5.4 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "F",
+															"from": [ 1.99009, -2.15885, -1.03196 ],
+															"to": [ 3.99009, 0.84115, -1.03196 ],
+															"uv": [ 48, 7 ],
+															"position": [ -2.97117, -0.84153, -0.80601 ],
+															"rotation": [ -180.22965, -201.29909, -132.40824 ],
+															"3d": true
+														}
+													],
+													"parts": [
+														{
+															"name": "Haripin",
+															"position": [ -3.3525, 1.44206, 0.39538 ],
+															"rotation": [ 0, 0, -10.30741 ],
+															"shapes": [
+																{
+																	"type": "plane",
+																	"description": "F",
+																	"from": [ 0.21016, 0.18779, -0.50304 ],
+																	"to": [ 1.21016, 1.18779, -0.50304 ],
+																	"uv": [ 60, 14 ],
+																	"position": [ 0.74283, -0.74445, -0.29252 ],
+																	"rotation": [ -14.44272, -3.83796, -21.43629 ],
+																	"scale": [ 1, 1, 0.7 ],
+																	"3d": true
+																},
+																{
+																	"type": "plane",
+																	"description": "F",
+																	"from": [ 0.01299, -0.1912, -0.45923 ],
+																	"to": [ 1.01299, 1.8088, -0.45923 ],
+																	"uv": [ 60, 13 ],
+																	"position": [ 0.05575, -0.38741, 0.15948 ],
+																	"rotation": [ -18.12316, 5.01592, -29.17229 ],
+																	"scale": [ 1, 1, 0.7 ],
+																	"3d": true
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "BH",
+									"position": [ 0, 0, 0 ],
+									"rotation": [ 0, 180, 0 ],
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "B",
+											"from": [ -4, -0.8, 19 ],
+											"to": [ 4, 7.2, 19 ],
+											"uv": [ 48, 0 ],
+											"position": [ 0, 0.98952, -5.72751 ],
+											"scale": [ 0.95, 0.95, 0.5 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "B",
+											"from": [ -4, -0.2, 20 ],
+											"to": [ 4, 4.8, 20 ],
+											"uv": [ 32, 3 ],
+											"position": [ 0, 1.36359, -5.71516 ],
+											"scale": [ 0.95, 0.95, 0.5 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Ponytail",
+											"position": [ 0, 1.08482, 5.67673 ],
+											"rotation": [ 2.22979, 0, 0 ],
+											"bend": {
+												"offset": -2.5,
+												"size": 40,
+												"detail": 1,
+												"part": "lower",
+												"axis": "x",
+												"angle": 58
+											},
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "P",
+													"from": [ -1.5, 0.7, -1.5 ],
+													"to": [ 1.5, 3.7, -1.5 ],
+													"uv": [ 58, 4 ],
+													"position": [ 0, 1.14439, 0.41532 ],
+													"scale": [ 0.8, 0.8, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "P",
+													"from": [ -1.5, 2.377, 0.92867 ],
+													"to": [ 1.5, 3.377, 0.92867 ],
+													"uv": [ 58, 4 ],
+													"position": [ 0, 1.63638, 0.61646 ],
+													"rotation": [ 0, -180, 0 ],
+													"scale": [ 0.8, 0.8, 0.8 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "P",
+													"from": [ -3.08744, 0.7, 2.1 ],
+													"to": [ -1.08744, 3.7, 2.1 ],
+													"uv": [ 59, 4 ],
+													"position": [ 0, 1.14439, 0.41532 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 0.5, 0.8, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "P",
+													"from": [ -3.01447, 0.7, -3.1 ],
+													"to": [ -1.01447, 3.7, -3.1 ],
+													"uv": [ 59, 4 ],
+													"position": [ 0, 1.06882, 0.41532 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 0.5, 0.8, 0.5 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "Band",
+													"position": [ 0, 0.22359, -1.97691 ],
+													"rotation": [ -60.64224, 0, 0 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "N",
+															"from": [ -1.98185, 5.95536, -3.58053 ],
+															"to": [ 2.01815, 6.95536, -3.58053 ],
+															"uv": [ 59, 14 ],
+															"position": [ -0.01304, 0, 0 ],
+															"scale": [ 0.78, 0.6, 0.6 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "N",
+															"from": [ -1.98185, 5.95536, -3.58053 ],
+															"to": [ 2.01815, 6.95536, -3.58053 ],
+															"uv": [ 59, 14 ],
+															"position": [ -0.01304, -1.75588, 0 ],
+															"scale": [ 0.78, 0.6, 0.6 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "N",
+															"from": [ 2.26473, -3.69919, -3.54362 ],
+															"to": [ 4.26473, -2.69919, -3.54362 ],
+															"uv": [ 59, 14 ],
+															"position": [ -0.05956, 1.00996, -0.02998 ],
+															"rotation": [ 0, 0, 90 ],
+															"scale": [ 0.6, 0.6, 0.6 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "N",
+															"from": [ 2.25852, 2.62113, -3.60193 ],
+															"to": [ 4.25852, 3.62113, -3.60193 ],
+															"uv": [ 59, 14 ],
+															"position": [ 0.03492, 1.05764, 0.01668 ],
+															"rotation": [ 0, 0, 90 ],
+															"scale": [ 0.6, 0.6, 0.6 ],
+															"3d": true
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "Tail",
+											"position": [ 0, -1.31004, 4.3 ],
+											"bend": {
+												"offset": -0.1,
+												"size": 3.4,
+												"detail": 1,
+												"part": "lower",
+												"axis": "x",
+												"angle": -5.80645
+											},
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "B",
+													"from": [ -4.40482, -2.11359, -0.02489 ],
+													"to": [ -2.40482, 2.88641, -0.02489 ],
+													"uv": [ 48, 5 ],
+													"position": [ 0, 0.3307, 0 ],
+													"rotation": [ -8.82268, 0, -8.0048 ],
+													"scale": [ 0.95, 0.95, 1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "B",
+													"from": [ -2.43257, -1.47984, 0.20109 ],
+													"to": [ -0.43257, 2.52016, 0.20109 ],
+													"uv": [ 50, 6 ],
+													"rotation": [ -12.11777, 0, -4 ],
+													"scale": [ 0.95, 0.95, 1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "B",
+													"from": [ 2.74552, -2.23707, 0 ],
+													"to": [ 4.74552, 2.76293, 0 ],
+													"uv": [ 54, 5 ],
+													"position": [ -0.15537, 0.22274, 0.11122 ],
+													"rotation": [ -10.48758, 0, 10.31265 ],
+													"scale": [ 0.95, 0.95, 1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "B",
+													"from": [ -0.21102, -1.4475, 0.06419 ],
+													"to": [ 2.78898, 2.5525, 0.06419 ],
+													"uv": [ 52, 6 ],
+													"rotation": [ -10.46855, -2.8624, 3.75039 ],
+													"scale": [ 0.95, 0.95, 1 ],
+													"3d": true
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "LH",
+									"position": [ 0, 0, 0 ],
+									"rotation": [ 0, 90, 0 ],
+									"scale": [ 0.95, 0.95, 1 ],
+									"bend": {
+										"offset": 3,
+										"size": 0,
+										"detail": 1,
+										"part": "lower",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 1, 0, 0 ],
+											"to": [ 7, 7, 0 ],
+											"uv": [ 0, 1 ],
+											"position": [ -5, 0.3, 4.72184 ],
+											"rotation": [ 0, 7, 0 ],
+											"scale": [ 1, 1, 0.6 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 0, 0, 0 ],
+											"to": [ 8, 7, 0 ],
+											"uv": [ 24, 1 ],
+											"position": [ -4, 0.3, 3.8 ],
+											"scale": [ 1, 1, 0.8 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 3, 2, 0 ],
+											"to": [ 5, 5, 0 ],
+											"uv": [ 51, 7 ],
+											"position": [ -1.0369, -3.81306, 4.15073 ],
+											"rotation": [ -4.70612, 0, 0 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 3.78696, 1.72696, 0 ],
+											"to": [ 4.78696, 4.72696, 0 ],
+											"uv": [ 31, 5 ],
+											"position": [ -0.46195, -1.98285, 4.18527 ],
+											"rotation": [ -5.4288, 0, 1.69257 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Cravat",
+											"position": [ 0.91321, -7.29064, 6.09512 ],
+											"rotation": [ -6.17684, 0, 0 ],
+											"bend": {
+												"offset": 9.9,
+												"size": 20,
+												"detail": 1,
+												"part": "lower",
+												"axis": [ "x", "z" ]
+											},
+											"parts": [
+												{
+													"name": "Rotation_CF",
+													"position": [ 0, 10.5, 0 ],
+													"parts": [
+														{
+															"name": "Cravat_F",
+															"position": [ 0, -10, 0 ],
+															"bend": {
+																"offset": 5.9,
+																"size": 11.1,
+																"detail": 1,
+																"part": "lower",
+																"axis": [ "x", "z" ],
+																"angle": [ 44, 0 ]
+															},
+															"shapes": [
+																{
+																	"type": "plane",
+																	"description": "CT",
+																	"from": [ -0.5, -0.1, 0 ],
+																	"to": [ 1.5, 1.9, 0 ],
+																	"uv": [ 59, 12 ],
+																	"position": [ 0.59078, 9.99558, 0.20906 ],
+																	"rotation": [ -186.34018, 0, 164.30783 ],
+																	"scale": [ 0.8, 0.8, 0.5 ],
+																	"3d": true
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "RH",
+									"position": [ -8.33836, 0, 0 ],
+									"rotation": [ 0, 90, 0 ],
+									"scale": [ 0.95, 0.95, 1 ],
+									"bend": {
+										"offset": 3,
+										"size": 0,
+										"detail": 1,
+										"part": "lower",
+										"axis": "x"
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 1.06808, 0, 0 ],
+											"to": [ 7.06808, 7, 0 ],
+											"uv": [ 0, 1 ],
+											"position": [ -5, 0.3, 3.1 ],
+											"rotation": [ 0, -7, 0 ],
+											"scale": [ 1, 1, 0.6 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 0, 0, 0 ],
+											"to": [ 8, 7, 0 ],
+											"uv": [ 24, 1 ],
+											"position": [ -4, 0.3, 3.8 ],
+											"scale": [ 1, 1, 0.8 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 3.78696, 1.72696, -1.29322 ],
+											"to": [ 4.78696, 4.72696, -1.29322 ],
+											"uv": [ 31, 5 ],
+											"position": [ -0.46195, -1.98285, 4.38922 ],
+											"rotation": [ 5.5288, 0, 1.69257 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "R",
+											"from": [ 3, 2, -0.94679 ],
+											"to": [ 5, 5, -0.94679 ],
+											"uv": [ 51, 7 ],
+											"position": [ -1.0369, -3.81306, 4.15073 ],
+											"rotation": [ 4.70612, 0, 0 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Cravat (1)",
+											"mb_name": "Cravat",
+											"position": [ 0.91321, -7.29064, 6.09512 ],
+											"rotation": [ -6.17684, 0, 0 ],
+											"bend": {
+												"offset": 9.9,
+												"size": 20,
+												"detail": 1,
+												"part": "lower",
+												"axis": [ "x", "z" ]
+											},
+											"parts": [
+												{
+													"name": "Rotation_CF (1)",
+													"mb_name": "Rotation_CF",
+													"position": [ 0, 10.5, -1.66175 ],
+													"parts": [
+														{
+															"name": "Cravat_F (1)",
+															"mb_name": "Cravat_F",
+															"position": [ 0, -10, 0 ],
+															"bend": {
+																"offset": 5.9,
+																"size": 11.1,
+																"detail": 1,
+																"part": "lower",
+																"axis": [ "x", "z" ],
+																"angle": [ 44, 0 ]
+															},
+															"shapes": [
+																{
+																	"type": "plane",
+																	"description": "CT",
+																	"from": [ -2.00052, -2.40366, -0.15629 ],
+																	"to": [ 0.99948, 0.59634, -0.15629 ],
+																	"uv": [ 58, 12 ],
+																	"position": [ 0.66691, 10.85303, 0.47693 ],
+																	"rotation": [ -165.75557, 0, -74.67127 ],
+																	"scale": [ 0.8, 0.8, 0.5 ],
+																	"3d": true
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "UH",
+									"position": [ 3.8, 7.15, -3.8 ],
+									"scale": [ 0.95, 0.95, 1 ],
+									"bend": {
+										"offset": 0,
+										"size": 0,
+										"detail": 1,
+										"part": "right",
+										"axis": "z"
+									},
+									"shapes": [
+										{
+											"type": "plane",
+											"description": "U",
+											"from": [ 2.5, 2.5, 0.5 ],
+											"to": [ 5.5, 5.5, 0.5 ],
+											"uv": [ 40, 0 ],
+											"position": [ 2.49375, 0.5, 2.3707 ],
+											"rotation": [ -90, -180, 0 ],
+											"scale": [ 1, 1, 0.5 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "U",
+											"from": [ 0, 0, 0.5 ],
+											"to": [ 3, 3, 0.5 ],
+											"uv": [ 45, 0 ],
+											"position": [ -5, 0.5, 4.75 ],
+											"rotation": [ -90, -180, 0 ],
+											"scale": [ 1, 1, 0.5 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "U",
+											"from": [ 3, 2.5, 0.20421 ],
+											"to": [ 5, 5.5, 0.20421 ],
+											"uv": [ 41, 1 ],
+											"position": [ -9.39577, 3.84675, 6.95919 ],
+											"rotation": [ -128.00494, -20.28497, 0 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "U",
+											"from": [ 3.5, 3.08178, -0.19426 ],
+											"to": [ 4.5, 5.08178, -0.19426 ],
+											"uv": [ 41, 0 ],
+											"position": [ -7.91006, 4.5037, 0.68243 ],
+											"rotation": [ -225.50998, 0, 0 ],
+											"3d": true
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Eye",
+							"position": [ 0, -0.3, 0.28 ],
+							"scale": [ 0.87, 0.88, 0.88 ],
+							"parts": [
+								{
+									"name": "EyeR",
+									"texture": "NeoTurnip.png",
+									"texture_size": [ 64, 64 ],
+									"position": [ 4.25, 0, -0.0001 ],
+									"scale": [ 1.1, 1.1, 1 ],
+									"parts": [
+										{
+											"name": "TPR",
+											"depth": -5,
+											"color_alpha": 0.5,
+											"position": [ -5, 1.1, 3.75 ],
+											"scale": [ 1.9, 1.9, 0.255 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Transparent",
+													"color_alpha": 0.01,
+													"from": [ 0, 0, 0 ],
+													"to": [ 3, 3, 0 ],
+													"uv": [ 10, 3 ],
+													"inflate": -1,
+													"scale": [ 1.05, 0.7, 0.99 ],
+													"invert": true,
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EWR",
+											"depth": -8,
+											"position": [ -4.2, 1.2, 3.7 ],
+											"scale": [ 2.2, 2, 1 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Eyewhite",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"color_mix": "#FFFFFF",
+													"from": [ -0.42, 0.5, 0 ],
+													"to": [ 2.58, 4.5, 0 ],
+													"uv": [ 0, 46 ],
+													"inflate": -1,
+													"scale": [ 0.92, 0.4, 0.3 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EBR",
+											"depth": -8,
+											"position": [ -0.5, 0.6, -0.2 ],
+											"scale": [ 0.85, 0.85, 1 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Eyeball",
+													"from": [ 0.5, -0.1, 0 ],
+													"to": [ 6.5, 8.9, 0 ],
+													"uv": [ 6, 46 ],
+													"position": [ -2.7, 2, 4.002 ],
+													"scale": [ 0.2, 0.18, 0.1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Light",
+													"from": [ 1, 0.4, 0 ],
+													"to": [ 3, 2.4, 0 ],
+													"uv": [ 1, 48 ],
+													"position": [ -1.8, 3.1, 4.05 ],
+													"scale": [ 0.13, 0.13, 0.08 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Light",
+													"from": [ -6.4, -9, 0 ],
+													"to": [ -4.4, -7, 0 ],
+													"uv": [ 1, 48 ],
+													"position": [ -1.8, 3.1, 4.05 ],
+													"scale": [ 0.08, 0.08, 0.08 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EyebowR",
+											"position": [ -2, 5.4, 4.3 ],
+											"rotation": [ 0, 0, 1.5 ],
+											"scale": [ 0.145, 0.185, 0.1 ],
+											"bend": {
+												"offset": 0,
+												"size": 74.7,
+												"detail": 1,
+												"part": "right",
+												"axis": "z",
+												"angle": -4
+											},
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Eyebow",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -7.5, 5.7, -0.5 ],
+													"to": [ 7.5, 6.7, -0.5 ],
+													"uv": [ 0, 57 ],
+													"position": [ 0, -10.95932, -2.1 ],
+													"scale": [ 0.8, 0.5, 1 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EyeDownR",
+											"depth": -6,
+											"position": [ 0, 0.18, 0 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "DR",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0.1, 1, 0 ],
+													"to": [ 2.1, 2, 0 ],
+													"uv": [ 9, 11 ],
+													"position": [ -3.1, -0.1, 3 ],
+													"scale": [ 1, 1, 0.999 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "BendDR",
+													"depth": -9,
+													"position": [ -1.9, 0.8, 3.4887 ],
+													"rotation": [ 0, 0, -10.3 ],
+													"scale": [ 1, 0.5, 1 ],
+													"bend": {
+														"offset": 0.7,
+														"size": 57.9,
+														"detail": 1,
+														"inherit_bend": 1,
+														"part": "right",
+														"axis": "z",
+														"angle": 27
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"color_blend": "#FFFBF8",
+															"from": [ -3, 1.5, 0 ],
+															"to": [ 3, 3.5, 0 ],
+															"uv": [ 9, 12 ],
+															"inflate": -1.7,
+															"scale": [ 0.9, 1, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ -1.52, 25.4, 0.3 ],
+															"to": [ 2.48, 27.4, 0.3 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"scale": [ 1.3, 0.12, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ 2.9, -9.4, 0.3 ],
+															"to": [ 6.9, -8.4, 0.3 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"rotation": [ 0, 0, 68.2 ],
+															"scale": [ 0.4, 0.08, 0.3 ],
+															"3d": true
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "EyeUpperR",
+											"depth": -6,
+											"position": [ 0, -0.13, -0.26 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "UR",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0.1, 1, 0 ],
+													"to": [ 2.1, 2, 0 ],
+													"uv": [ 9, 11 ],
+													"position": [ -3.1, 3, 3.26 ],
+													"scale": [ 1, 1, 0.999 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "BendUR",
+													"depth": -9,
+													"position": [ -1.9, 2.8, 3.6887 ],
+													"rotation": [ 0, 0, 5.7 ],
+													"scale": [ 1, 0.5, 1 ],
+													"bend": {
+														"offset": 0.7,
+														"size": 57.9,
+														"detail": 1,
+														"inherit_bend": 1,
+														"part": "right",
+														"axis": "z",
+														"angle": -15
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"color_blend": "#FFFBF8",
+															"from": [ -3, 1.5, 0 ],
+															"to": [ 3, 3.5, 0 ],
+															"uv": [ 9, 12 ],
+															"inflate": -1.7,
+															"scale": [ 1, 1, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ -3.3, 10.3, 0.3 ],
+															"to": [ 2.7, 12.3, 0.3 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"position": [ 0, -1.495, 0 ],
+															"scale": [ 0.8, 0.3, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ -0.09, 0.23, 0 ],
+															"to": [ 2.91, 2.23, 0 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"position": [ 0.26, 0.7, 0.5 ],
+															"rotation": [ 0, 0, -5 ],
+															"scale": [ 0.5, 0.8, 0.1 ],
+															"invert": true,
+															"3d": true
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "EyeL",
+									"texture": "NeoTurnip.png",
+									"texture_size": [ 64, 64 ],
+									"position": [ 0.2, 0, -0.0001 ],
+									"scale": [ 1.1, 1.1, 1 ],
+									"parts": [
+										{
+											"name": "TPL",
+											"depth": -5,
+											"color_alpha": 0.5,
+											"position": [ -5, 1.1, 3.75 ],
+											"scale": [ 1.9, 1.9, 0.255 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Transparent",
+													"color_alpha": 0.01,
+													"from": [ 0, 0, 0 ],
+													"to": [ 3, 3, 0 ],
+													"uv": [ 9, 3 ],
+													"inflate": -1,
+													"scale": [ 1.05, 0.7, 0.99 ],
+													"invert": true,
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EWL",
+											"depth": -8,
+											"position": [ -4.2, 1.2, 3.7 ],
+											"scale": [ 2.2, 2, 1 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Eyewhite",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"color_mix": "#FFFFFF",
+													"from": [ -0.42, 0.5, 0 ],
+													"to": [ 2.58, 4.5, 0 ],
+													"uv": [ 0, 46 ],
+													"inflate": -1,
+													"scale": [ 0.92, 0.4, 0.3 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EBL",
+											"depth": -8,
+											"position": [ -0.2, 0.6, -0.2 ],
+											"scale": [ 0.85, 0.85, 1 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Eyeball",
+													"from": [ 0.5, -0.1, 0 ],
+													"to": [ 6.5, 8.9, 0 ],
+													"uv": [ 6, 46 ],
+													"position": [ -2.7, 2, 4.002 ],
+													"scale": [ 0.2, 0.18, 0.1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Light",
+													"from": [ 1, 0.4, 0 ],
+													"to": [ 3, 2.4, 0 ],
+													"uv": [ 1, 48 ],
+													"position": [ -1.8, 3.1, 4.05 ],
+													"scale": [ 0.13, 0.13, 0.08 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Light",
+													"from": [ -6.4, -9, 0 ],
+													"to": [ -4.4, -7, 0 ],
+													"uv": [ 1, 48 ],
+													"position": [ -1.8, 3.1, 4.05 ],
+													"scale": [ 0.08, 0.08, 0.08 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EyebowL",
+											"position": [ -2, 5.5, 4.3 ],
+											"rotation": [ 0, 0, 1.5 ],
+											"scale": [ 0.145, 0.185, 0.1 ],
+											"bend": {
+												"offset": 0,
+												"size": 74.7,
+												"detail": 1,
+												"part": "right",
+												"axis": "z",
+												"angle": -4
+											},
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Eyebow",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ -7.5, 5.7, -0.5 ],
+													"to": [ 7.5, 6.7, -0.5 ],
+													"uv": [ 0, 57 ],
+													"position": [ 0, -11.36798, -2.1 ],
+													"scale": [ 0.8, 0.5, 1 ],
+													"3d": true
+												}
+											]
+										},
+										{
+											"name": "EyeDownL",
+											"depth": -6,
+											"position": [ 0, 0.18, 0 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "DR",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0.1, 1, 0 ],
+													"to": [ 2.1, 2, 0 ],
+													"uv": [ 9, 11 ],
+													"position": [ -3.1, -0.1, 3 ],
+													"scale": [ 1, 1, 0.999 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "BendDR (1)",
+													"mb_name": "BendDR (2)",
+													"depth": -9,
+													"position": [ -1.9, 0.8, 3.4887 ],
+													"rotation": [ 0, 0, -10.3 ],
+													"scale": [ 1, 0.5, 1 ],
+													"bend": {
+														"offset": 0.7,
+														"size": 57.9,
+														"detail": 1,
+														"inherit_bend": 1,
+														"part": "right",
+														"axis": "z",
+														"angle": 27
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"color_blend": "#FFFBF8",
+															"from": [ -3, 1.5, 0 ],
+															"to": [ 3, 3.5, 0 ],
+															"uv": [ 9, 12 ],
+															"inflate": -1.7,
+															"scale": [ 0.9, 1, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ -2.54, 25.4, 0.3 ],
+															"to": [ 1.46, 27.4, 0.3 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"scale": [ 1.3, 0.12, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ -6.9, -11.2, 0.3 ],
+															"to": [ -2.9, -10.2, 0.3 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"rotation": [ 0, 0, -68.2 ],
+															"scale": [ 0.4, 0.08, 0.3 ],
+															"3d": true
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "EyeUpperL",
+											"depth": -6,
+											"position": [ 0, -0.13, -0.26 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "UR",
+													"texture": "NeoTurnip.png",
+													"texture_size": [ 64, 64 ],
+													"from": [ 0.1, 1, 0 ],
+													"to": [ 2.1, 2, 0 ],
+													"uv": [ 9, 11 ],
+													"position": [ -3.1, 3, 3.26 ],
+													"scale": [ 1, 1, 0.999 ],
+													"3d": true
+												}
+											],
+											"parts": [
+												{
+													"name": "BendUL",
+													"depth": -9,
+													"position": [ -1.9, 2.8, 3.6887 ],
+													"rotation": [ 0, 0, 5.7 ],
+													"scale": [ 1, 0.5, 1 ],
+													"bend": {
+														"offset": 0.7,
+														"size": 57.9,
+														"detail": 1,
+														"inherit_bend": 1,
+														"part": "right",
+														"axis": "z",
+														"angle": -15
+													},
+													"shapes": [
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"color_blend": "#FFFBF8",
+															"from": [ -3, 1.5, 0 ],
+															"to": [ 3, 3.5, 0 ],
+															"uv": [ 9, 12 ],
+															"inflate": -1.7,
+															"scale": [ 1, 1, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ -3.3, 10.3, 0.3 ],
+															"to": [ 2.7, 12.3, 0.3 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"position": [ 0, -1.495, 0 ],
+															"scale": [ 0.8, 0.3, 0.3 ],
+															"3d": true
+														},
+														{
+															"type": "plane",
+															"description": "Line",
+															"texture": "NeoTurnip.png",
+															"texture_size": [ 64, 64 ],
+															"from": [ 0.1, -0.12, 0 ],
+															"to": [ 3.1, 1.88, 0 ],
+															"uv": [ 6, 60 ],
+															"inflate": -1.7,
+															"position": [ -1.9, 0.7, 0.5 ],
+															"rotation": [ 0, 0, 5 ],
+															"scale": [ 0.5, 0.8, 0.1 ],
+															"invert": true,
+															"3d": true
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Head_bend",
+							"position": [ -0.015, -0.5, -3.72 ],
+							"rotation": [ 0, 0, -3.4 ],
+							"scale": [ 1, 1, 0.2 ],
+							"bend": {
+								"offset": 0,
+								"size": 18.5,
+								"detail": 1,
+								"part": "right",
+								"axis": "z",
+								"angle": 7
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -4, 0.55, 0 ],
+									"to": [ 4, 1.55, 0 ],
+									"uv": [ 8, 15 ],
+									"rotation": [ 0, 0.0999, 0 ],
+									"scale": [ 0.957, 1, 37.5 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"from": [ -4, 0.55, -1.25 ],
+									"to": [ 4, 1.55, -1.25 ],
+									"uv": [ 24, 15 ],
+									"rotation": [ 0, 0.0999, 0 ],
+									"scale": [ 0.955, 1, 0.3 ],
+									"3d": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Right_arm",
+					"position": [ -4.7, 9.5, 0 ],
+					"rotation": [ 0, 0, -7.4 ],
+					"scale": [ 0.8, 0.95, 0.85 ],
+					"bend": {
+						"offset": -4,
+						"size": 4,
+						"detail": 1,
+						"part": "lower",
+						"axis": "x",
+						"direction_min": 0,
+						"invert": true
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1.5, -10, -2 ],
+							"to": [ 1.5, 2, 2 ],
+							"uv": [ 44, 20 ]
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -2, -3.07916, 8.6 ],
+							"to": [ 2, -2.07916, 8.6 ],
+							"uv": [ 43, 27 ],
+							"position": [ -0.31088, -2.93332, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1.05, 1, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -1.5, -3.07916, 9.5 ],
+							"to": [ 1.5, -2.07916, 9.5 ],
+							"uv": [ 51, 27 ],
+							"position": [ 0, -2.93332, 0 ],
+							"scale": [ 1, 1, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -1.5, -3.07916, 9.5 ],
+							"to": [ 1.5, -2.07916, 9.5 ],
+							"uv": [ 40, 27 ],
+							"position": [ 0, -2.93332, 0 ],
+							"rotation": [ 0, -180, 0 ],
+							"scale": [ 1, 1, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -2, -3.07916, 7.1 ],
+							"to": [ 2, -2.07916, 7.1 ],
+							"uv": [ 47, 27 ],
+							"position": [ 0, -2.93332, 0 ],
+							"rotation": [ 0, -90, 0 ],
+							"scale": [ 1.05, 1, 0.2 ],
+							"3d": true
+						}
+					]
+				},
+				{
+					"name": "Left_arm",
+					"position": [ 4.7, 9.5, 0 ],
+					"rotation": [ 0, 0, 5.3 ],
+					"scale": [ 0.8, 0.95, 0.85 ],
+					"bend": {
+						"offset": -4,
+						"size": 4,
+						"detail": 1,
+						"part": "lower",
+						"axis": "x",
+						"direction_min": 0,
+						"invert": true
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1.5, -10, -2 ],
+							"to": [ 1.5, 2, 2 ],
+							"uv": [ 36, 52 ]
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -2, -3.07916, 8.6 ],
+							"to": [ 2, -2.07916, 8.6 ],
+							"uv": [ 43, 27 ],
+							"position": [ -0.31088, -2.93332, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1.05, 1, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -1.5, -3.07916, 9.5 ],
+							"to": [ 1.5, -2.07916, 9.5 ],
+							"uv": [ 51, 27 ],
+							"position": [ 0, -2.93332, 0 ],
+							"scale": [ 1, 1, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -1.5, -3.07916, 9.5 ],
+							"to": [ 1.5, -2.07916, 9.5 ],
+							"uv": [ 40, 27 ],
+							"position": [ 0, -2.93332, 0 ],
+							"rotation": [ 0, -180, 0 ],
+							"scale": [ 1, 1, 0.2 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "C",
+							"from": [ -2, -3.07916, 7.1 ],
+							"to": [ 2, -2.07916, 7.1 ],
+							"uv": [ 47, 27 ],
+							"position": [ 0, -2.93332, 0 ],
+							"rotation": [ 0, -90, 0 ],
+							"scale": [ 1.05, 1, 0.2 ],
+							"3d": true
+						}
+					]
+				},
+				{
+					"name": "Qipao",
+					"position": [ 0, 3, 0 ],
+					"scale": [ 1.1, 1.1, 1.1 ],
+					"lock_bend": 0,
+					"bend": {
+						"offset": -3,
+						"size": 6,
+						"detail": 1,
+						"part": "lower",
+						"axis": [ "x", "y" ]
+					},
+					"parts": [
+						{
+							"name": "LL",
+							"position": [ -3.6, 0, 0 ],
+							"rotation": [ 8, 90, 0 ],
+							"bend": {
+								"offset": -2.1,
+								"size": 10,
+								"detail": 1,
+								"part": "lower",
+								"axis": [ "x", "y" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"color_mix_percent": 0.01,
+									"from": [ -2, -5.2, 0 ],
+									"to": [ 2, 0.8, 0 ],
+									"uv": [ 16, 26 ],
+									"scale": [ 0.8, 1, 0.5 ],
+									"3d": true
+								}
+							]
+						},
+						{
+							"name": "RR",
+							"position": [ 3, 0, 0 ],
+							"rotation": [ -8, 90, 0 ],
+							"bend": {
+								"offset": -2.1,
+								"size": 10,
+								"detail": 1,
+								"part": "lower",
+								"axis": [ "x", "y" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"color_mix_percent": 0.01,
+									"from": [ -2, -5.2, 0 ],
+									"to": [ 2, 0.8, 0 ],
+									"uv": [ 16, 26 ],
+									"scale": [ 0.8, 1, 0.5 ],
+									"3d": true
+								}
+							]
+						},
+						{
+							"name": "BB",
+							"position": [ 0, -0.3, 1.4 ],
+							"rotation": [ -8, 0, 0 ],
+							"bend": {
+								"offset": -3.6,
+								"size": 10,
+								"detail": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -4, -5, 0 ],
+									"to": [ 4, 1, 0 ],
+									"uv": [ 20, 26 ],
+									"scale": [ 0.8, 1, 0.5 ],
+									"3d": true
+								}
+							]
+						},
+						{
+							"name": "FF",
+							"position": [ 0, -0.3, -1.4 ],
+							"rotation": [ -8, 180, 0 ],
+							"bend": {
+								"offset": -3.6,
+								"size": 10,
+								"detail": 1,
+								"part": "lower",
+								"axis": [ "x", "y", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"from": [ -4, -5, 0 ],
+									"to": [ 4, 1, 0 ],
+									"uv": [ 32, 26 ],
+									"scale": [ 0.8, 1, 0.5 ],
+									"3d": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "right_leg",
+			"position": [ -1.8, 11.2, 0 ],
+			"scale": [ 0.88, 1.1, 0.88 ],
+			"bend": {
+				"offset": -6,
+				"size": 4,
+				"detail": 1,
+				"part": "lower",
+				"axis": "x",
+				"direction_min": 0
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -2, -9.5, -2 ],
+					"to": [ 2, 0.5, 2 ],
+					"uv": [ 4, 20 ]
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 4, 25 ],
+					"position": [ 0, 1.5, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 0, 25 ],
+					"position": [ 0, 1.5, 0 ],
+					"rotation": [ 0, 90, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 8, 25 ],
+					"position": [ 0, 1.5, 0 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 12, 25 ],
+					"position": [ 0, 1.5, 0 ],
+					"rotation": [ 0, 270, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				}
+			],
+			"parts": [
+				{
+					"name": "Shoe_R",
+					"position": [ 0, -10.5, 0 ],
+					"bend": {
+						"offset": 0,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"direction_min": [ -40, -180 ],
+						"direction_max": [ 40, 180 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -2, -1, -2 ],
+							"to": [ 2, 1, 2 ],
+							"uv": [ 4, 30 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "Main",
+							"position": [ 0, 0, 0 ],
+							"bend": {
+								"offset": 0,
+								"inherit_bend": 1,
+								"part": "upper",
+								"axis": [ "x", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -3.1714, 1.81272 ],
+									"to": [ 2, -1.1714, 1.81272 ],
+									"uv": [ 56, 61 ],
+									"rotation": [ -15, 0, 0 ],
+									"scale": [ 0.99, 0.6, 0.8 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -1, -3.17, 2.11272 ],
+									"to": [ 1, -2.17, 2.11272 ],
+									"uv": [ 57, 61 ],
+									"position": [ 0, 0.62, 0 ],
+									"rotation": [ -15, 0, 0 ],
+									"scale": [ 0.99, 0.6, 0.8 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -3.04, 1.85013 ],
+									"to": [ 2, -2.04, 1.85013 ],
+									"uv": [ 52, 63 ],
+									"position": [ 0, 0.4, 0 ],
+									"scale": [ 1.01, 0.7, 1 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -2.45, 10 ],
+									"to": [ 2, -0.45, 10 ],
+									"uv": [ 52, 61 ],
+									"rotation": [ 0, -90, 0 ],
+									"scale": [ 1.01, 0.7, 0.2 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -2.45, -11 ],
+									"to": [ 2, -0.45, -11 ],
+									"uv": [ 52, 61 ],
+									"rotation": [ 0, -90, 0 ],
+									"scale": [ 1.01, 0.7, 0.2 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -1.5, -2.44461, 4.83934 ],
+									"to": [ 1.5, -0.44461, 4.83934 ],
+									"uv": [ 52, 62 ],
+									"rotation": [ 0, -180, 0 ],
+									"scale": [ 1.35, 0.7, 0.4 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -0.3472, -8.70471 ],
+									"to": [ 2, 1.6528, -8.70471 ],
+									"uv": [ 56, 62 ],
+									"position": [ 0, -5, 0 ],
+									"rotation": [ 90, 0, 0 ],
+									"scale": [ 1, 1.3, 0.5 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -1.35771, -4.58459 ],
+									"to": [ 2, -0.35771, -4.58459 ],
+									"uv": [ 56, 63 ],
+									"position": [ 0, -5, 0 ],
+									"rotation": [ 90, 0, 0 ],
+									"scale": [ 1, 1.2, 1 ],
+									"3d": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "left_leg",
+			"position": [ 1.8, 11.2, 0 ],
+			"scale": [ 0.88, 1.1, 0.88 ],
+			"bend": {
+				"offset": -6,
+				"size": 2,
+				"detail": 1,
+				"part": "lower",
+				"axis": "x",
+				"direction_min": 0
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -2, -9.5, -2 ],
+					"to": [ 2, 0.5, 2 ],
+					"uv": [ 20, 52 ]
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 20, 57 ],
+					"position": [ 0, 1.5, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 16, 57 ],
+					"position": [ 0, 1.5, 0 ],
+					"rotation": [ 0, 90, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 24, 57 ],
+					"position": [ 0, 1.5, 0 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "SU",
+					"from": [ -2, -7, 10 ],
+					"to": [ 2, -6, 10 ],
+					"uv": [ 28, 57 ],
+					"position": [ 0, 1.5, 0 ],
+					"rotation": [ 0, 270, 0 ],
+					"scale": [ 1, 1, 0.2 ],
+					"3d": true
+				}
+			],
+			"parts": [
+				{
+					"name": "Shoe_L",
+					"position": [ 0, -10.5, 0 ],
+					"bend": {
+						"offset": 0,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"direction_min": [ -40, -180 ],
+						"direction_max": [ 40, 180 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -2, -1, -2 ],
+							"to": [ 2, 1, 2 ],
+							"uv": [ 20, 62 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "Main (1)",
+							"mb_name": "Main",
+							"position": [ 0, 0, 0 ],
+							"bend": {
+								"offset": 0,
+								"inherit_bend": 1,
+								"part": "upper",
+								"axis": [ "x", "z" ]
+							},
+							"shapes": [
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -3.1714, 1.81272 ],
+									"to": [ 2, -1.1714, 1.81272 ],
+									"uv": [ 56, 61 ],
+									"rotation": [ -15, 0, 0 ],
+									"scale": [ 0.99, 0.6, 0.8 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -1, -3.17, 2.11272 ],
+									"to": [ 1, -2.17, 2.11272 ],
+									"uv": [ 57, 61 ],
+									"position": [ 0, 0.62, 0 ],
+									"rotation": [ -15, 0, 0 ],
+									"scale": [ 0.99, 0.6, 0.8 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -3.04, 1.85013 ],
+									"to": [ 2, -2.04, 1.85013 ],
+									"uv": [ 52, 63 ],
+									"position": [ 0, 0.4, 0 ],
+									"scale": [ 1.01, 0.7, 1 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -2.45, 10 ],
+									"to": [ 2, -0.45, 10 ],
+									"uv": [ 52, 61 ],
+									"rotation": [ 0, -90, 0 ],
+									"scale": [ 1.01, 0.7, 0.2 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -2.45, -11 ],
+									"to": [ 2, -0.45, -11 ],
+									"uv": [ 52, 61 ],
+									"rotation": [ 0, -90, 0 ],
+									"scale": [ 1.01, 0.7, 0.2 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -1.5, -2.44461, 4.83934 ],
+									"to": [ 1.5, -0.44461, 4.83934 ],
+									"uv": [ 52, 62 ],
+									"rotation": [ 0, -180, 0 ],
+									"scale": [ 1.35, 0.7, 0.4 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -0.3472, -8.70471 ],
+									"to": [ 2, 1.6528, -8.70471 ],
+									"uv": [ 56, 62 ],
+									"position": [ 0, -5, 0 ],
+									"rotation": [ 90, 0, 0 ],
+									"scale": [ 1, 1.3, 0.5 ],
+									"3d": true
+								},
+								{
+									"type": "plane",
+									"description": "S",
+									"from": [ -2, -1.35771, -4.58459 ],
+									"to": [ 2, -0.35771, -4.58459 ],
+									"uv": [ 56, 63 ],
+									"position": [ 0, -5, 0 ],
+									"rotation": [ 90, 0, 0 ],
+									"scale": [ 1, 1.2, 1 ],
+									"3d": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

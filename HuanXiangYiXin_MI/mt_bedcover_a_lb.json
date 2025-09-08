@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "miniaturia_mod:blocks/bedcover_c5",
+		"cover3": "miniaturia_mod:blocks/bedcover_c5"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 2.5],
+			"to": [15.69, 1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 0]},
+			"faces": {
+				"north": {"uv": [0.3375, 0, 16, 1], "rotation": 180, "texture": "#cover3"},
+				"south": {"uv": [0.3375, 0, 16, 1], "rotation": 180, "texture": "#cover3"},
+				"west": {"uv": [0.3375, 0, 1.3375, 13.5], "rotation": 90, "texture": "#cover3"},
+				"up": {"uv": [0.3375, 0, 16, 13.5], "rotation": 180, "texture": "#cover3"},
+				"down": {"uv": [0, 0, 15.6625, 13.5], "texture": "#cover3"}
+			}
+		},
+		{
+			"from": [15.5, -1, 2.5],
+			"to": [16.5, 1.175, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [16.5, -1, 0]},
+			"faces": {
+				"north": {"uv": [13.8625, 0, 16, 1], "rotation": 270, "texture": "#cover3"},
+				"east": {"uv": [13.8625, 0, 16, 13.5], "rotation": 270, "texture": "#cover3"},
+				"south": {"uv": [13.8625, 0, 16, 1], "rotation": 270, "texture": "#cover3"},
+				"west": {"uv": [0, 0, 2.1375, 13.5], "rotation": 90, "texture": "#cover3"}
+			}
+		},
+		{
+			"from": [15.5, -6.5, 2.5],
+			"to": [16.5, -1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, -16, 0]},
+			"faces": {
+				"north": {"uv": [0.3375, 0, 1.3375, 5.5], "texture": "#cover3"},
+				"east": {"uv": [8.25, 0, 13.75, 13.5], "rotation": 270, "texture": "#cover3"},
+				"south": {"uv": [0.3375, 0, 1.3375, 5.5], "texture": "#cover3"},
+				"west": {"uv": [2.25, 0, 7.75, 13.5], "rotation": 90, "texture": "#cover3"},
+				"down": {"uv": [0.3375, 0, 1.3375, 13.5], "texture": "#cover3"}
+			}
+		}
+	]
+}

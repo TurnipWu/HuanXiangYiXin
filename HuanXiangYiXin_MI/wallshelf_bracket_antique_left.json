@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "cocricotmod:blocks/planks_brown",
+		"texture": "cocricotmod:blocks/planks_brown",
+		"texture3": "cocricotmod:blocks/chair_brown"
+	},
+	"elements": [
+		{
+			"from": [0, -1.5, 21],
+			"to": [16, 0, 32],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1.5], "texture": "#texture3"},
+				"east": {"uv": [0, 0, 11, 1.5], "texture": "#texture3"},
+				"south": {"uv": [0, 0, 16, 1.5], "texture": "#texture3"},
+				"west": {"uv": [5, 0, 16, 1.5], "texture": "#texture3"},
+				"up": {"uv": [0, 5, 16, 16], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 11], "texture": "#texture"}
+			}
+		}
+	]
+}
